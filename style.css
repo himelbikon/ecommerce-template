@@ -35,6 +35,15 @@ a:hover {
   transform: translateY(-90%);
 }
 
+.img-gray img {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.img-gray img:hover {
+  filter: grayscale(0);
+}
+
 /* for single page */
 
 .bg-banner {
