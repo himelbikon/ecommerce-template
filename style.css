@@ -44,6 +44,10 @@ a:hover {
   filter: grayscale(0);
 }
 
+.bg-black {
+  background: black;
+}
+
 /* for single page */
 
 .bg-banner {
@@ -76,4 +80,37 @@ nav ul {
   position: absolute;
   transform: translateX(-50%);
   border-radius: 5px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .menu-icon {
+    display: inline;
+    height: 40px;
+    margin: 3% 0;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: black;
+    flex-direction: column;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    max-height: 0px;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100vw;
+    text-align: center;
+  }
+
+  nav a {
+    color: #fff;
+  }
 }
