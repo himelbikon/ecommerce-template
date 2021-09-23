@@ -26,7 +26,7 @@
                 <nav>
                     <ul id="menus" class="d-flex p-0" style="list-style-type: none;">
                         <li class="mx-3"><a href="#">Home</a></li>
-                        <li class="mx-3"><a href="#">Product</a></li>
+                        <li class="mx-3"><a href="shop.html">All Products</a></li>
                         <li class="mx-3"><a href="#">Contact</a></li>
                         <li class="mx-3"><a href="#">About</a></li>
                         <li class="mx-3"><a href="#">Account</a></li>
@@ -56,31 +56,32 @@
         </section>
     </div>
 
-    <!-- featured photos -->
-    <section>
-        <div class="container my-5">
-            <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-4">
-                    <img src="images/category-1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="images/category-2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="images/category-3.jpg" alt="" class="img-fluid">
+    <main>
+        <!-- featured photos -->
+        <section>
+            <div class="container my-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-4">
+                        <img src="images/category-1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="images/category-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="images/category-3.jpg" alt="" class="img-fluid">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- fetured products -->
-    <section>
-        <div class="container my-5">
-            <h2 class="pt-5 my-5 head-title">Featured Posts </h2>
-            <div class="row d-flex justify-content-center">
-                <script>
-                    for (i = 1; i <= 12; i++) {
-                        products = `<div class="col-12 col-md-4 col-lg-3 my-3 sm-part">
+        <!-- fetured products -->
+        <section>
+            <div class="container my-5">
+                <h2 class="pt-5 my-5 head-title">Featured Posts </h2>
+                <div class="row d-flex justify-content-center">
+                    <script>
+                        for (i = 1; i <= 12; i++) {
+                            products = `<div class="col-12 col-md-4 col-lg-3 my-3 sm-part">
                     <img src="images/product-${i}.jpg" alt="" class="img-fluid">
                     <h5 class="mt-2">Red Printed T-Shirt</h5>
                     <div class="my-1 df-clr">
@@ -92,21 +93,21 @@
                     </div>
                     <p>50.00$</p>
                 </div>`
-                        document.write(products)
-                    }
-                </script>
+                            document.write(products)
+                        }
+                    </script>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- lates products -->
-    <section>
-        <div class="container my-5">
-            <h2 class="pt-5 my-5 head-title">Latest Posts </h2>
-            <div class="row d-flex justify-content-center">
-                <script>
-                    for (i = 1; i <= 12; i++) {
-                        products = `<div class="col-12 col-md-4 col-lg-3 my-3 sm-part">
+        <!-- lates products -->
+        <section>
+            <div class="container my-5">
+                <h2 class="pt-5 my-5 head-title">Latest Posts </h2>
+                <div class="row d-flex justify-content-center">
+                    <script>
+                        for (i = 1; i <= 12; i++) {
+                            products = `<div class="col-12 col-md-4 col-lg-3 my-3 sm-part">
                             <img src="images/product-${i}.jpg" alt="" class="img-fluid">
                             <h5 class="mt-2">Red Printed T-Shirt</h5>
                             <div class="my-1 df-clr">
@@ -118,61 +119,62 @@
                             </div>
                             <p>50.00$</p>
                         </div>`
-                        document.write(products)
-                    }
-                </script>
-            </div>
-        </div>
-    </section>
-
-    <!-- offer -->
-    <section class="bg-banner py-4 my-3">
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="images/exclusive.png" alt="" class="img-fluid">
+                            document.write(products)
+                        }
+                    </script>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="vm">
-                        <p>Exclusive avilable on Red Store</p>
-                        <h1>Apple Smart Watch</h1>
-                        <p>
-                            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex odit quod cumque qui
-                                atque amet rerum quos doloremque eaque provident!</small>
-                        </p>
+            </div>
+        </section>
 
-                        <a class="btn">Buy Now</a>
+        <!-- offer -->
+        <section class="bg-banner py-4 my-3">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="images/exclusive.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="vm">
+                            <p>Exclusive avilable on Red Store</p>
+                            <h1>Apple Smart Watch</h1>
+                            <p>
+                                <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex odit quod cumque qui
+                                    atque amet rerum quos doloremque eaque provident!</small>
+                            </p>
+
+                            <a class="btn">Buy Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- brands -->
-    <section>
-        <div class="container my-5">
-            <div class="row d-flex justify-content-center img-gray">
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-coca-cola.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-godrej.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-oppo.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-paypal.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-paypal.png" alt="" class=" img-fluid">
-                </div>
-                <div class="col-6 col-md-2">
-                    <img src="images/logo-philips.png" alt="" class="img-fluid">
+        <!-- brands -->
+        <section>
+            <div class="container my-5">
+                <div class="row d-flex justify-content-center img-gray">
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-coca-cola.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-godrej.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-oppo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-paypal.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-paypal.png" alt="" class=" img-fluid">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img src="images/logo-philips.png" alt="" class="img-fluid">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="bg-dark text-white p-5">
         <div class="container">
@@ -214,6 +216,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- custom -->
     <script src="main.js"></script>
 </body>
 
