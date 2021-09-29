@@ -104,11 +104,12 @@ nav ul {
     overflow: hidden;
     transition: max-height 1s;
     max-height: 0px;
+    width: 100vw;
   }
 
   nav ul li {
     display: block;
-    width: 100vw;
+    /* width: 100vw; */
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
